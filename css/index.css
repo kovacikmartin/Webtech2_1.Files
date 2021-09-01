@@ -1,0 +1,44 @@
+body
+{
+    margin: auto;
+    overflow-x: hidden;
+}
+
+header
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.tableContainer
+{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#dirTable tbody tr td:empty
+{
+    display: none;
+}
+
+form
+{
+    max-width: 300px;
+    width: 100%;
+}
+
+.btn
+{
+    max-width: 100px;
+}
+
+footer
+{
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
